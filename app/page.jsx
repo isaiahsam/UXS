@@ -21,6 +21,7 @@ export default function Home() {
     return (
         <div className="text-center bg-black text-white">
             <h1 className="font-bold text-6xl mt-14 mb-6">Disney Movies</h1>
+            
             <Disneys disneys={disneys} />
         </div>
     )
